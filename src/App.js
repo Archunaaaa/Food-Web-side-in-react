@@ -5,9 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-// pages
-import { Home, MealDetails, Error, Category } from "";
-// components
+import { Home, MealDetails, Error, Category } from "./Pages/index";
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import HomePage from './Pages/HomePage/HomePage';

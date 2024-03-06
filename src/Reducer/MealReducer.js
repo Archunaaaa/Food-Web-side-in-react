@@ -11,7 +11,7 @@ import {
     FETCH_SINGLE_MEAL_BEGIN,
     FETCH_SINGLE_MEAL_ERROR,
     FETCH_SINGLE_MEAL_SUCCESS
-} from "../actions/actions";
+} from "../Action/Actions";
 
 export const mealReducer = (state, action) => {
     switch(action.type){

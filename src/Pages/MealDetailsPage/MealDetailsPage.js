@@ -4,7 +4,7 @@ import "./MealDetailsPage.scss";
 import CategoryList from '../../Components/Category/CategoryList';
 import MealSingle from "../../Components/Meal/MealSingle";
 import { useMealContext } from '../../Context/MealContext';
-import { startFetchSingleMeal } from '../../actions/mealsActions';
+import { startFetchSingleMeal } from '../../Action\/MealsActions';
 import Loader from '../../Components/Loader/Loader';
 
 const MealDetailsPage = () => {

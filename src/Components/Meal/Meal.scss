@@ -30,7 +30,7 @@
             padding: 0 18px;
             border-radius: 16px;
             font-size: 13px;
-            background-color: $clr-white;
+            background-color: #ffffff;
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         }
 
@@ -66,12 +66,12 @@
             .title{
                 padding: 12px 0;
                 font-size: 24px;
-                border-bottom: 1px solid $clr-orange;
+                border-bottom: 1px solid  #ff6600;
             }
             .source{
                 a{
                     &:hover{
-                        color: $clr-orange;
+                        color:  #ff6600;
                     }
                 }
             }
@@ -84,13 +84,13 @@
                         margin-right: 6px;
                         padding: 0 8px;
                         border-radius: 3px;
-                        border: 1px solid $clr-orange;
-                        color: $clr-orange;
+                        border: 1px solid  #ff6600;
+                        color:  #ff6600;
                     }
                 }
             }
             .ingredients{
-                background-color: $clr-orange;
+                background-color:  #ff6600;
 
                 h6{
                     margin-right: 12px;
@@ -119,8 +119,8 @@
 
                         .li-dot{
                             box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 1px;
-                            background-color: $clr-green;
-                            color: $clr-white;
+                            background-color: #00ff00; 
+                            color: #ffffff;
                             width: 20px;
                             height: 20px;
                             display: inline-flex;

@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import "./CategoryPage.scss";
+import "./Category.scss";
 import { useMealContext } from '../../Context/MealContext';
 import MealList from '../../Components/Meal/MealList';
 import { useParams } from 'react-router-dom';
-import { startFetchMealByCategory } from '../../actions/mealsActions';
+import { startFetchMealByCategory } from '../../Action/MealsActions';
 
 const CategoryPage = () => {
   const {name} = useParams();

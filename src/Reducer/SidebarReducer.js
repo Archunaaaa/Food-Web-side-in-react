@@ -1,7 +1,7 @@
 import {
     OPEN_SIDEBAR,
     CLOSE_SIDEBAR
-} from "../actions/actions";
+} from "../Action/Actions";
 
 const sidebarReducer = (state, action) => {
     switch(action.type){

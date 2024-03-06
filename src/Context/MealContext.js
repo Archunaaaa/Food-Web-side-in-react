@@ -1,6 +1,6 @@
 import React, {createContext, useContext, useEffect, useReducer} from "react";
-import { mealReducer } from "../reducers/mealReducer";
-import { startFetchCategories } from "../actions/mealsActions";
+import { mealReducer } from "../Reducer/MealReducer";
+import { startFetchCategories } from "../Action/MealsActions";
 
 const initialState = {
     categories: [],

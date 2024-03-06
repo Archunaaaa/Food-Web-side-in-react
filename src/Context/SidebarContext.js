@@ -1,9 +1,9 @@
 import React, {createContext, useContext, useReducer} from "react";
-import reducer from "../reducers/sidebarReducer";
+import reducer from "../Reducer/SidebarReducer";
 import {
     OPEN_SIDEBAR,
     CLOSE_SIDEBAR
-} from "../actions/actions";
+} from "../Action/Actions";
 
 const initialState = {
     isSidebarOpen: false
