@@ -8,14 +8,14 @@ import {
 import { Home, MealDetails, Error, Category } from "./Pages/index";
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Sidebar/Sidebar";
-import HomePage from './Pages/HomePage/HomePage';
+// import HomePage from './Pages/HomePage/HomePage';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Sidebar />
-      <HomePage />
+      {/* <HomePage /> */}
       <Routes>
         <Route path = "/" element = {<Home />} />
         <Route path = "/meal/:id" element = {<MealDetails />} />
