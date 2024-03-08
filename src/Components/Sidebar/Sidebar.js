@@ -20,7 +20,7 @@ const Sidebar = () => {
                     {
                         categories.map(category => (
                             <li className='side-item' key = {category.idCategory}>
-                                <Link to = {`/meal/category/${category.strCategory}`} className='side-link ls-1 fs-13' onClick={() => closeSidebar()}>
+                                <Link to = {`/Meal/Category/${category.strCategory}`} className='side-link ls-1 fs-13' onClick={() => closeSidebar()}>
                                     {category.strCategory}
                                 </Link>
                             </li>
