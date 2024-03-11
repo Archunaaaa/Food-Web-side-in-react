@@ -20,8 +20,8 @@ export const startFetchCategories = async(dispatch) => {
     try{
         dispatch({ type: FETCH_CATEGORY_BEGIN});
         const response = await axios.get(`${CATEGORIES_URL}`);
-        // dispatch({type: FETCH_CATEGORY_SUCCESS, payload: response.data.categories});
-        dispatch({type: FETCH_CATEGORY_SUCCESS, payload: response.data});
+        dispatch({type: FETCH_CATEGORY_SUCCESS, payload: response.data.categories});
+        // dispatch({type: FETCH_CATEGORY_SUCCESS, payload: response.data});
 
     } catch(error){
         dispatch({ type: FETCH_CATEGORY_ERROR, payload: error.message});
